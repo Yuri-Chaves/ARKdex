@@ -1,0 +1,81 @@
+achatina - Caracol-Gigante
+allosaurus - Alosauro
+andrewsarchus
+ankylosaurus - Anquilossauro
+archaeopteryx - Arqueopterix
+argentavis
+arthropleura - Centopéia-Gigante
+baryonyx - Barionix
+basilosaurus - Basilossauro
+beelzebufo - Sapo
+bloodstalker
+brontossaurus - Brontossauro
+bulbdog
+carbonemys
+carnotauro
+chalicoterio - Chalico
+compsognathus - Compy
+dilofossauro - Dilo
+diplocaulus
+diplodocus - Dilodoco
+direwolf - Lobo Gigante
+dodo 
+dodorex
+dung-beetle - Besouro Rola-Bosta
+dunkleosteus
+electrophorus-eel - Poraquê
+equus - Cavalo-Gigante
+featherlight
+gasbags
+gigantossauro - Giga
+glowtail
+griffin - Grifo
+hiena
+ictiosaurus - Ictiossauro
+iguanodon - Iguanodonte
+kairuku - Pinguim
+kaprosuchus - Crocodilo-Javali
+lystrosaurus - Listrossauro
+magmasaur - Magmassauro
+mammoth - Mamute
+managarmr - Cão-da-Lua
+megalania
+megalodon - Megalodonte
+megalosaurus - Megalossauro
+megatherium - Preguiça-Gigante
+mosassauro - Mosa
+oviraptor
+ovis - Ovelha
+pachyrhinosaurus - Paquirrinossauro
+paquicefalossauro
+paraceratherium - Paraceratério
+parasaurolophus - Parassauro
+pelagornis
+phiomia
+plesio-elasmo - Plesiossauro
+pteranodon-ptero - Pteranodonte
+quetzalcoatlus
+ravager - Lobo-das-Cavernas
+reaper
+rock-drake - Dragão da rocha
+rock-elemental - Golem de pedra
+sabertooth - Dentes-de-Sabre
+shinehorn
+snow-owl - Coruja das neves
+spinosaurus - Espinossauro
+stegosaurus - Estegossauro
+tapejara
+terror-bird - Ave do Terror
+therizinosaurus - Therizinossauro
+thylacoleo - Leão Marsupial
+titanoboa
+titanomyrma - Formiga
+titanosaur-titano - Titanossauro
+triceratops - Trike
+trilobite - Trilobita
+tusoteuthis - Lula-Gigante
+tyranossaurus-rex - T-rex
+utahraptor
+velonasaur - Velonassauro
+wyvern
+yutiranos

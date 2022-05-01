@@ -1,0 +1,4 @@
+ > Listar dinossauros em ordem alfabética. DONE
+ > Criar pastas para salvar informações/imagens dos dinossauros.
+ > Buscar informações dos dinossauros. (ark.fandom.com)
+ > Buscar imagens dos dinossauros.
