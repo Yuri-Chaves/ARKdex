@@ -1,12 +1,480 @@
 <!DOCTYPE html>
-<html lang="pt_br">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
+    <meta name="description" content="ARKdex para auxiliar os jogadores.">
     <title>ARKdex</title>
+
+    <link rel="stylesheet" href="/Styles/reset.css">
+    <link rel="stylesheet" href="/Styles/root.css">
+    <link rel="stylesheet" href="/Styles/card.css">
+    <link rel="stylesheet" href="/Styles/nav.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
-    
+    <main>
+        <div class="arkdex">
+            <div class="cards">
+<!-- Achatina -->
+                <div class="card open">
+                    <div class="card_top">
+                        <div class="header_card">
+                            <h2 class="name">Caracol-Gigante</h2>
+                            <span class="herb">Herbívoro</span>
+                        </div>
+                        <span class="species">Achatina limusegnis</span>
+                        <div class="card_img">
+                            <img src="/Images/bg.png" alt="background">
+                            <img src="/Dinopedia/Achatina/Achatina_bg.png" alt="Achatina">
+                        </div>
+                    </div>
+                    <div class="info">
+                        <table>
+                            <tr>
+                                <td>Atributos</td>
+                                <td>Valores Base</td>
+                                <td>Level Up Selvagem</td>
+                                <td>Level Up Domesticado</td>
+                            </tr>
+                            <tr>
+                                <td style="color: #018A89;"><img src="/Images/Saúde.png" alt="Saúde">Saúde</td>
+                                <td>75</td>
+                                <td>+15</td>
+                                <td>+5.4%</td>
+                            </tr>
+                            <tr>
+                                <td style="color: #018A89;"><img src="/Images/Energia.png" alt="Energia">Energia</td>
+                                <td>100</td>
+                                <td>+10</td>
+                                <td>+10%</td>
+                            </tr>
+                            <tr>
+                                <td style="color: #018A89;"><img src="/Images/Oxigênio.png" alt="Oxigênio">Oxigênio</td>
+                                <td>N/A</td>
+                                <td>N/A</td>
+                                <td>N/A</td>
+                            </tr>
+                            <tr>
+                                <td style="color: #018A89;"><img src="/Images/Comida.png" alt="Comida">Comida</td>
+                                <td>450</td>
+                                <td>+45</td>
+                                <td>+10%</td>
+                            </tr>
+                            <tr>
+                                <td style="color: #018A89;"><img src="/Images/Peso.png" alt="Peso">Peso</td>
+                                <td>600</td>
+                                <td>+12</td>
+                                <td>+4%</td>
+                            </tr>
+                            <tr>
+                                <td style="color: #018A89;"><img src="/Images/Dano corpo-a-corpo.png" alt="Dano corpo-a-corpo">Dano corpo-a-corpo</td>
+                                <td>0</td>
+                                <td>+0</td>
+                                <td>+ 1.7%</td>
+                            </tr>
+                            <tr>
+                                <td style="color: #018A89;"><img src="/Images/Velocidade de movimento.png" alt="Velocidade de movimento">Velocidade de movimento</td>
+                                <td>100%</td>
+                                <td>N/A</td>
+                                <td>+1%</td>
+                            </tr>
+                            <tr>
+                                <td style="color: #018A89;"><img src="/Images/Entorpecimento.png" alt="Entorpecimento">Entorpecimento</td>
+                                <td>50</td>
+                                <td>+3</td>
+                                <td>N/A</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+<!-- Allosaurus -->
+                <div class="card">
+                    <div class="card_top">
+                        <div class="header_card">
+                            <h2 class="name">Alossauro</h2>
+                            <span class="carn">Carnívoro</span>
+                        </div>
+                        <span class="species">Allosaurus therotribus</span>
+                        <div class="card_img">
+                            <img src="/Images/bg.png" alt="background">
+                            <img src="/Dinopedia/Allosaurus/Allosaurus_bg.png" alt="Alossauro">
+                        </div>
+                    </div>
+                    <div class="info">
+                        <table>
+                            <tr>
+                                <td>Atributos</td>
+                                <td>Valores Base</td>
+                                <td>Level Up Selvagem</td>
+                                <td>Level Up Domesticado</td>
+                            </tr>
+                            <tr>
+                                <td style="color: #018A89;"><img src="/Images/Saúde.png" alt="Saúde">Saúde</td>
+                                <td>630</td>
+                                <td>+126</td>
+                                <td>+5.4%</td>
+                            </tr>
+                            <tr>
+                                <td style="color: #018A89;"><img src="/Images/Energia.png" alt="Energia">Energia</td>
+                                <td>250</td>
+                                <td>+25</td>
+                                <td>+10%</td>
+                            </tr>
+                            <tr>
+                                <td style="color: #018A89;"><img src="/Images/Oxigênio.png" alt="Oxigênio">Oxigênio</td>
+                                <td>150</td>
+                                <td>+15</td>
+                                <td>+10%</td>
+                            </tr>
+                            <tr>
+                                <td style="color: #018A89;"><img src="/Images/Comida.png" alt="Comida">Comida</td>
+                                <td>3000</td>
+                                <td>+300</td>
+                                <td>+10%</td>
+                            </tr>
+                            <tr>
+                                <td style="color: #018A89;"><img src="/Images/Peso.png" alt="Peso">Peso</td>
+                                <td>380</td>
+                                <td>+7.6</td>
+                                <td>+4%</td>
+                            </tr>
+                            <tr>
+                                <td style="color: #018A89;"><img src="/Images/Dano corpo-a-corpo.png" alt="Dano corpo-a-corpo">Dano corpo-a-corpo</td>
+                                <td>25/35</td>
+                                <td>+1.25/+1.75</td>
+                                <td>+ 1.7%</td>
+                            </tr>
+                            <tr>
+                                <td style="color: #018A89;"><img src="/Images/Velocidade de movimento.png" alt="Velocidade de movimento">Velocidade de movimento</td>
+                                <td>100%</td>
+                                <td>N/A</td>
+                                <td>+1%</td>
+                            </tr>
+                            <tr>
+                                <td style="color: #018A89;"><img src="/Images/Entorpecimento.png" alt="Entorpecimento">Entorpecimento</td>
+                                <td>1000</td>
+                                <td>+60</td>
+                                <td>N/A</td>
+                            </tr>
+                        </table>                    
+                    </div>
+                </div>
+
+<!-- Ankylosaurus -->
+                <div class="card">
+                    <div class="card_top">
+                        <div class="header_card">
+                            <h2 class="name">Anquilossauro</h2>
+                            <span class="herb">Herbívoro</span>
+                        </div>
+                        <span class="species">Ankylosaurus crassacutis</span>
+                        <div class="card_img">
+                            <img src="/Images/bg.png" alt="background">
+                            <img src="/Dinopedia/Ankylosaurus/Ankylosaurus_bg.png" alt="Anquilossauro">
+                        </div>
+                    </div>
+                    <div class="info">
+                        <table>
+                            <tr>
+                                <td>Atributos</td>
+                                <td>Valores Base</td>
+                                <td>Level Up Selvagem</td>
+                                <td>Level Up Domesticado</td>
+                            </tr>
+                            <tr>
+                                <td style="color: #018A89;"><img src="/Images/Saúde.png" alt="Saúde">Saúde</td>
+                                <td>700</td>
+                                <td>+140</td>
+                                <td>+5.4%</td>
+                            </tr>
+                            <tr>
+                                <td style="color: #018A89;"><img src="/Images/Energia.png" alt="Energia">Energia</td>
+                                <td>175</td>
+                                <td>+17.5</td>
+                                <td>+10%</td>
+                            </tr>
+                            <tr>
+                                <td style="color: #018A89;"><img src="/Images/Oxigênio.png" alt="Oxigênio">Oxigênio</td>
+                                <td>150</td>
+                                <td>+15</td>
+                                <td>+10%</td>
+                            </tr>
+                            <tr>
+                                <td style="color: #018A89;"><img src="/Images/Comida.png" alt="Comida">Comida</td>
+                                <td>3000</td>
+                                <td>+300</td>
+                                <td>+10%</td>
+                            </tr>
+                            <tr>
+                                <td style="color: #018A89;"><img src="/Images/Peso.png" alt="Peso">Peso</td>
+                                <td>250</td>
+                                <td>+5</td>
+                                <td>+4%</td>
+                            </tr>
+                            <tr>
+                                <td style="color: #018A89;"><img src="/Images/Dano corpo-a-corpo.png" alt="Dano corpo-a-corpo">Dano corpo-a-corpo</td>
+                                <td>30/50</td>
+                                <td>+1.5/2.5</td>
+                                <td>+1.7%</td>
+                            </tr>
+                            <tr>
+                                <td style="color: #018A89;"><img src="/Images/Velocidade de movimento.png" alt="Velocidade de movimento">Velocidade de movimento</td>
+                                <td>100%</td>
+                                <td>N/A</td>
+                                <td>+2%</td>
+                            </tr>
+                            <tr>
+                                <td style="color: #018A89;"><img src="/Images/Entorpecimento.png" alt="Entorpecimento">Entorpecimento</td>
+                                <td>420</td>
+                                <td>+25.2</td>
+                                <td>N/A</td>
+                            </tr>
+                        </table>   
+                    </div>
+                </div>
+
+<!-- Archaeopteryx -->
+                <div class="card">
+                    <div class="card_top">
+                        <div class="header_card">
+                            <h2 class="name">Arqueopterix</h2>
+                            <span class="carn">Carnívoro</span>
+                        </div>
+                        <span class="species">Archaeopteryx magnamilvum</span>
+                        <div class="card_img">
+                            <img src="/Images/bg.png" alt="background">
+                            <img src="/Dinopedia/Archaeopteryx/Archaeopteryx_bg.png" alt="Arqueopterix">
+                        </div>
+                    </div>
+                    <div class="info">
+                        <table>
+                            <tr>
+                                <td>Atributos</td>
+                                <td>Valores Base</td>
+                                <td>Level Up Selvagem</td>
+                                <td>Level Up Domesticado</td>
+                            </tr>
+                            <tr>
+                                <td style="color: #018A89;"><img src="/Images/Saúde.png" alt="Saúde">Saúde</td>
+                                <td>125</td>
+                                <td>+25</td>
+                                <td>+5.4%</td>
+                            </tr>
+                            <tr>
+                                <td style="color: #018A89;"><img src="/Images/Energia.png" alt="Energia">Energia</td>
+                                <td>150</td>
+                                <td>+15</td>
+                                <td>+10%</td>
+                            </tr>
+                            <tr>
+                                <td style="color: #018A89;"><img src="/Images/Oxigênio.png" alt="Oxigênio">Oxigênio</td>
+                                <td>150</td>
+                                <td>+15</td>
+                                <td>+10%</td>
+                            </tr>
+                            <tr>
+                                <td style="color: #018A89;"><img src="/Images/Comida.png" alt="Comida">Comida</td>
+                                <td>900</td>
+                                <td>+90</td>
+                                <td>+10%</td>
+                            </tr>
+                            <tr>
+                                <td style="color: #018A89;"><img src="/Images/Peso.png" alt="Peso">Peso</td>
+                                <td>30</td>
+                                <td>+0.6</td>
+                                <td>+4%</td>
+                            </tr>
+                            <tr>
+                                <td style="color: #018A89;"><img src="/Images/Dano corpo-a-corpo.png" alt="Dano corpo-a-corpo">Dano corpo-a-corpo</td>
+                                <td>5</td>
+                                <td>+0.25</td>
+                                <td>+ 1.7%</td>
+                            </tr>
+                            <tr>
+                                <td style="color: #018A89;"><img src="/Images/Velocidade de movimento.png" alt="Velocidade de movimento">Velocidade de movimento</td>
+                                <td>100%</td>
+                                <td>N/A</td>
+                                <td>+1%</td>
+                            </tr>
+                            <tr>
+                                <td style="color: #018A89;"><img src="/Images/Entorpecimento.png" alt="Entorpecimento">Entorpecimento</td>
+                                <td>100</td>
+                                <td>+6</td>
+                                <td>N/A</td>
+                            </tr>
+                        </table>   
+                    </div>
+                </div>
+
+<!-- Argentavis -->
+                <div class="card">
+                    <div class="card_top">
+                        <div class="header_card">
+                            <h2 class="name">Argentavis</h2>
+                            <span class="nec">Necrófago</span>
+                        </div>
+                        <span class="species">Argentavis atrocollum</span>
+                        <div class="card_img">
+                            <img src="/Images/bg.png" alt="background">
+                            <img src="/Dinopedia/Argentavis/Argentavis_bg.png" alt="Argentavis">
+                        </div>
+                    </div>
+                    <div class="info">
+                        <table>
+                            <tr>
+                                <td>Atributos</td>
+                                <td>Valores Base</td>
+                                <td>Level Up Selvagem</td>
+                                <td>Level Up Domesticado</td>
+                            </tr>
+                            <tr>
+                                <td style="color: #018A89;"><img src="/Images/Saúde.png" alt="Saúde">Saúde</td>
+                                <td>365</td>
+                                <td>+73</td>
+                                <td>+6.075%</td>
+                            </tr>
+                            <tr>
+                                <td style="color: #018A89;"><img src="/Images/Energia.png" alt="Energia">Energia</td>
+                                <td>400</td>
+                                <td>+20</td>
+                                <td>+7.5%</td>
+                            </tr>
+                            <tr>
+                                <td style="color: #018A89;"><img src="/Images/Oxigênio.png" alt="Oxigênio">Oxigênio</td>
+                                <td>150</td>
+                                <td>+15</td>
+                                <td>+10%</td>
+                            </tr>
+                            <tr>
+                                <td style="color: #018A89;"><img src="/Images/Comida.png" alt="Comida">Comida</td>
+                                <td>2000</td>
+                                <td>+200</td>
+                                <td>+10%</td>
+                            </tr>
+                            <tr>
+                                <td style="color: #018A89;"><img src="/Images/Peso.png" alt="Peso">Peso</td>
+                                <td>400</td>
+                                <td>+8</td>
+                                <td>+5.5%</td>
+                            </tr>
+                            <tr>
+                                <td style="color: #018A89;"><img src="/Images/Dano corpo-a-corpo.png" alt="Dano corpo-a-corpo">Dano corpo-a-corpo</td>
+                                <td>12/25</td>
+                                <td>+0.6/1.25</td>
+                                <td>+2.55%</td>
+                            </tr>
+                            <tr>
+                                <td style="color: #018A89;"><img src="/Images/Velocidade de movimento.png" alt="Velocidade de movimento">Velocidade de movimento</td>
+                                <td>100%</td>
+                                <td>N/A</td>
+                                <td>+0%</td>
+                            </tr>
+                            <tr>
+                                <td style="color: #018A89;"><img src="/Images/Entorpecimento.png" alt="Entorpecimento">Entorpecimento</td>
+                                <td>600</td>
+                                <td>+36</td>
+                                <td>N/A</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+<!-- Arthropleura -->
+                <div class="card">
+                    <div class="card_top">
+                        <div class="header_card">
+                            <h2 class="name">Centopéia-Gigante</h2>
+                            <span class="nec">Necrófago</span>
+                        </div>
+                        <span class="species">Arthropluera felsanguis</span>
+                        <div class="card_img">
+                            <img src="/Images/bg.png" alt="background">
+                            <img src="/Dinopedia/Arthropleura/Arthropleura_bg.png" alt="Centopéia-Gigante">
+                        </div>
+                    </div>
+                    <div class="info">
+                        <table>
+                            <tr>
+                                <td>Atributos</td>
+                                <td>Valores Base</td>
+                                <td>Level Up Selvagem</td>
+                                <td>Level Up Domesticado</td>
+                            </tr>
+                            <tr>
+                                <td style="color: #018A89;"><img src="/Images/Saúde.png" alt="Saúde">Saúde</td>
+                                <td>500</td>
+                                <td>+100</td>
+                                <td>+5.4%</td>
+                            </tr>
+                            <tr>
+                                <td style="color: #018A89;"><img src="/Images/Energia.png" alt="Energia">Energia</td>
+                                <td>200</td>
+                                <td>+20</td>
+                                <td>+10%</td>
+                            </tr>
+                            <tr>
+                                <td style="color: #018A89;"><img src="/Images/Oxigênio.png" alt="Oxigênio">Oxigênio</td>
+                                <td>N/A</td>
+                                <td>N/A</td>
+                                <td>N/A</td>
+                            </tr>
+                            <tr>
+                                <td style="color: #018A89;"><img src="/Images/Comida.png" alt="Comida">Comida</td>
+                                <td>1200</td>
+                                <td>+120</td>
+                                <td>+10%</td>
+                            </tr>
+                            <tr>
+                                <td style="color: #018A89;"><img src="/Images/Peso.png" alt="Peso">Peso</td>
+                                <td>100</td>
+                                <td>+2</td>
+                                <td>+4%</td>
+                            </tr>
+                            <tr>
+                                <td style="color: #018A89;"><img src="/Images/Dano corpo-a-corpo.png" alt="Dano corpo-a-corpo">Dano corpo-a-corpo</td>
+                                <td>18/30</td>
+                                <td>+0.9/+1.5</td>
+                                <td>+ 1.7%</td>
+                            </tr>
+                            <tr>
+                                <td style="color: #018A89;"><img src="/Images/Velocidade de movimento.png" alt="Velocidade de movimento">Velocidade de movimento</td>
+                                <td>100%</td>
+                                <td>N/A</td>
+                                <td>+1%</td>
+                            </tr>
+                            <tr>
+                                <td style="color: #018A89;"><img src="/Images/Entorpecimento.png" alt="Entorpecimento">Entorpecimento</td>
+                                <td>175</td>
+                                <td>+10.5</td>
+                                <td>N/A</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <nav class="list">
+                <ul>
+                    <li class="dino ativo"><img src="/Dinopedia/Achatina/Achatina_icon.png" alt="Caracol-Gigante"><span>Achatina</span></li>
+                    <li class="dino"><img src="/Dinopedia/Allosaurus/Allosaurus_icon.png" alt="Alossauro"><span>Allosaurus</span></li>
+                    <li class="dino"><img src="/Dinopedia/Ankylosaurus/Ankylosaurus_icon.png" alt="Anquilossauro"><span>Ankylosaurus</span></li>
+                    <li class="dino"><img src="/Dinopedia/Archaeopteryx/Archaeopteryx_icon.png" alt="Arqueopterix"><span>Archaeopteryx</span></li>
+                    <li class="dino"><img src="/Dinopedia/Argentavis/Argentavis_icon.png" alt="Argentavis"><span>Argentavis</span></li>
+                    <li class="dino"><img src="/Dinopedia/Arthropleura/Arthropleura_icon.png" alt="Centopéia-Gigante"><span>Arthropleura</span></li>
+                </ul>
+            </nav>
+        </div>
+    </main>
 </body>
+
 </html>

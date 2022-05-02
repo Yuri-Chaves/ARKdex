@@ -1,0 +1,78 @@
+.card {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    display: none;
+    background-color: #90A4AE;
+}
+.card .card_top {
+    padding: 30px 40px 0;
+}
+.card .name {
+    margin-bottom: 5px;
+}
+.card .species{
+    font-size: 16px;
+    background-color: #FFFFFF;
+    opacity: 0.7;
+    border-radius: 10px;
+    padding: 2px 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.card .header_card {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card .card_img {
+    width: 500px;
+    height: 350px;
+    position: relative;
+}
+.card .card_img img {
+    max-height: 100%;
+    position: absolute;
+}
+.card .info {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.card .info img {
+    height: 30px;
+}
+.card .info table{
+    padding: 10px;
+}
+.card .info tr {
+    background-color: antiquewhite;
+}
+.card.open {
+    display: block;
+}
+.herb{
+    font-size: 16px;
+    opacity: 0.7;
+    border-radius: 10px;
+    padding: 2px 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: #01AA65;
+}
+.carn{
+    font-size: 16px;
+    opacity: 0.7;
+    border-radius: 10px;
+    padding: 2px 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: #FF3730;
+}
+.nec{
+    font-size: 16px;
+    opacity: 0.7;
+    border-radius: 10px;
+    padding: 2px 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: #5c6bc0;
+}

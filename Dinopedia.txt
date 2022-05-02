@@ -1,6 +1,5 @@
 achatina - Caracol-Gigante
-allosaurus - Alosauro
-andrewsarchus
+allosaurus - Alossauro
 ankylosaurus - Anquilossauro
 archaeopteryx - Arqueopterix
 argentavis
