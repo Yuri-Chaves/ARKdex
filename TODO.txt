@@ -1,4 +1,3 @@
- > Listar dinossauros em ordem alfabética. DONE
- > Criar pastas para salvar informações/imagens dos dinossauros.
- > Buscar informações dos dinossauros. (ark.fandom.com)
- > Buscar imagens dos dinossauros.
+ > Buscar informações dos demais dinossauros. (ark.fandom.com)
+ > Trabalhar em um submenu para apresentar dossie e demais informações dos dinossauros.
+ > Melhorar a tabela de atributos dos dinossauros.

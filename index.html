@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="/Styles/root.css">
     <link rel="stylesheet" href="/Styles/card.css">
     <link rel="stylesheet" href="/Styles/nav.css">
+    <link rel="stylesheet" href="/Styles/responsive.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,9 +24,19 @@
 <body>
     <main>
         <div class="arkdex">
+            <nav class="list">
+                <ul>
+                    <li class="dino ativo" id="achatina"><img src="/Dinopedia/Achatina/Achatina_icon.png" alt="Caracol-Gigante"><span>Achatina</span></li>
+                    <li class="dino" id="allosaurus"><img src="/Dinopedia/Allosaurus/Allosaurus_icon.png" alt="Alossauro"><span>Allosaurus</span></li>
+                    <li class="dino" id="ankylosaurus"><img src="/Dinopedia/Ankylosaurus/Ankylosaurus_icon.png" alt="Anquilossauro"><span>Ankylosaurus</span></li>
+                    <li class="dino" id="archaeopteryx"><img src="/Dinopedia/Archaeopteryx/Archaeopteryx_icon.png" alt="Arqueopterix"><span>Archaeopteryx</span></li>
+                    <li class="dino" id="argentavis"><img src="/Dinopedia/Argentavis/Argentavis_icon.png" alt="Argentavis"><span>Argentavis</span></li>
+                    <li class="dino" id="arthropleura"><img src="/Dinopedia/Arthropleura/Arthropleura_icon.png" alt="Centopéia-Gigante"><span>Arthropleura</span></li>
+                </ul>
+            </nav>
             <div class="cards">
 <!-- Achatina -->
-                <div class="card open">
+                <div class="card open" id="achatina_card">
                     <div class="card_top">
                         <div class="header_card">
                             <h2 class="name">Caracol-Gigante</h2>
@@ -38,7 +49,22 @@
                         </div>
                     </div>
                     <div class="info">
-                        <table>
+                        <div class="i dossier ">
+                            <h3>Espécies:</h3>
+                            <p>Achatina limusegnis</p>
+                            <h3>Tempo:</h3>
+                            <p>Holoceno</p>
+                            <h3>Dieta:</h3>
+                            <p>Herbívoro</p>
+                            <h3>Temperamento:</h3>
+                            <p>Passiva</p>
+                            <h3>Selvagem</h3>
+                            <p>Encontrado principalmente em pântanos e selvas, a Achatina limusegnis é um molusco terrestre muito lento e não ameaçador. Pode ser a criatura mais simples da Ilha para caçar e, embora forneça apenas uma pequena quantidade de carne e quitina, uma refeição fácil é sempre valiosa na Ilha. Ao contrário de quase todas as outras criaturas da Ilha, a Achatina não defeca normalmente. Em vez disso, secreta uma substância espessa e pegajosa. A Achatina deixa rastros desse lodo, mas os rastros são tão finos que se transformam em pó rapidamente.</p>
+                            <h3>Domesticado</h3>
+                            <p>Há um fato muito nojento, mas útil, sobre Achatina que faz com que as tribos procurem domá-los: suas secreções são quimicamente semelhantes à "Pasta de Cimentação" e ao "Polímero Orgânico" usado por muitas tribos para materiais de construção. A Achatina domesticada acumula naturalmente esse lodo ao longo do tempo, que pode ser coletado conforme a conveniência da tribo. Diz a lenda que a Achatina pode ser domado com um "bolo" especial feito de colheitas e recursos colhidos.</p>
+                            <span>~Helena</span>
+                        </div>
+                        <table class="i see">
                             <tr>
                                 <td>Atributos</td>
                                 <td>Valores Base</td>
@@ -98,7 +124,7 @@
                 </div>
 
 <!-- Allosaurus -->
-                <div class="card">
+                <div class="card" id="allosaurus_card">
                     <div class="card_top">
                         <div class="header_card">
                             <h2 class="name">Alossauro</h2>
@@ -171,7 +197,7 @@
                 </div>
 
 <!-- Ankylosaurus -->
-                <div class="card">
+                <div class="card" id="ankylosaurus_card">
                     <div class="card_top">
                         <div class="header_card">
                             <h2 class="name">Anquilossauro</h2>
@@ -244,7 +270,7 @@
                 </div>
 
 <!-- Archaeopteryx -->
-                <div class="card">
+                <div class="card" id="archaeopteryx_card">
                     <div class="card_top">
                         <div class="header_card">
                             <h2 class="name">Arqueopterix</h2>
@@ -317,7 +343,7 @@
                 </div>
 
 <!-- Argentavis -->
-                <div class="card">
+                <div class="card" id="argentavis_card">
                     <div class="card_top">
                         <div class="header_card">
                             <h2 class="name">Argentavis</h2>
@@ -390,7 +416,7 @@
                 </div>
 
 <!-- Arthropleura -->
-                <div class="card">
+                <div class="card" id="arthropleura_card">
                     <div class="card_top">
                         <div class="header_card">
                             <h2 class="name">Centopéia-Gigante</h2>
@@ -463,18 +489,10 @@
                 </div>
             </div>
 
-            <nav class="list">
-                <ul>
-                    <li class="dino ativo"><img src="/Dinopedia/Achatina/Achatina_icon.png" alt="Caracol-Gigante"><span>Achatina</span></li>
-                    <li class="dino"><img src="/Dinopedia/Allosaurus/Allosaurus_icon.png" alt="Alossauro"><span>Allosaurus</span></li>
-                    <li class="dino"><img src="/Dinopedia/Ankylosaurus/Ankylosaurus_icon.png" alt="Anquilossauro"><span>Ankylosaurus</span></li>
-                    <li class="dino"><img src="/Dinopedia/Archaeopteryx/Archaeopteryx_icon.png" alt="Arqueopterix"><span>Archaeopteryx</span></li>
-                    <li class="dino"><img src="/Dinopedia/Argentavis/Argentavis_icon.png" alt="Argentavis"><span>Argentavis</span></li>
-                    <li class="dino"><img src="/Dinopedia/Arthropleura/Arthropleura_icon.png" alt="Centopéia-Gigante"><span>Arthropleura</span></li>
-                </ul>
-            </nav>
+            
         </div>
     </main>
+    <script src="/Js/index.js"></script>
 </body>
 
 </html>

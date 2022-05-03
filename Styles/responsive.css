@@ -1,0 +1,32 @@
+@media(max-width: 800px){
+    body{
+        font-size: 12px;
+    }
+    .arkdex{
+        flex-direction: column;
+        padding: 30px 0;
+    }
+    .card{
+        max-width: 600px;
+    }
+    .card .info{
+        padding:30px 30px;
+    }
+    .list{
+        max-width: 600px;
+    }
+    .list ul{
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .list .dino{
+        width: 140px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 30px;
+    }
+    .list .dino span{
+        padding-right: 5px;
+    }
+}

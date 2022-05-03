@@ -76,3 +76,13 @@
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     background-color: #5c6bc0;
 }
+.i{
+    display: none;
+}
+.i.see{
+    display: block;
+}
+.dossier{
+    max-width: 500px;
+    padding-left: 20px;
+}
