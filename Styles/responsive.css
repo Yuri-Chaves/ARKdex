@@ -48,3 +48,38 @@
         width: 450px;
     }
 }
+@media(max-width: 425px){
+    .arkdex{
+        max-width: 400px;
+    }
+    .cards{
+        width: 400px;
+    }
+    .card{
+        width: 400px;
+    }
+    .card_img img{
+        width: 350px;
+    }
+    .sub_list{
+        height: 80px;
+    }
+    .sub_list ul{
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+}
+@media(max-width: 320px){
+    .cards{
+        width: 300px;
+    }
+    .card{
+        width: 320px;
+        height: 300px;
+    }
+    .card_img img{
+        width: 250px;
+    }
+
+}

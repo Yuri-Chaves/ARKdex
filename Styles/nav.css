@@ -41,11 +41,10 @@
 .sub_list{
     text-align: center;
 }
-.sub_list .sub{
+.sub{
     max-width: 150px;
     display: inline;
     color: #FFFFFF;
-    /* background-color: #0091EA; */
     background-color: #6B727A;
     padding: 5px 5px;
     border-radius: 15px;
@@ -53,6 +52,6 @@
     min-height: 30px;
     transition: 0.15s ease-in-out;
 }
-.sub_list .sub.op{   
+.sub.op{   
     background-color: #FA6668;
 }
