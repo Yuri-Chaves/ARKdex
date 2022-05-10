@@ -3,6 +3,7 @@
     border-radius: 10px;
     display: none;
     background-color: #90A4AE;
+    width: 600px;
 }
 .card .card_top {
     padding: 30px 40px 0;
@@ -34,9 +35,11 @@
     position: absolute;
 }
 .card .info {
+    width: 100%;
     background-color: #FFFFFF;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
@@ -82,7 +85,14 @@
 .i.see{
     display: block;
 }
-.dossier{
+.text{
     max-width: 500px;
-    padding-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.dossier span{
+    color: #009688 ;
+    float: right;
 }

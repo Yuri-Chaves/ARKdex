@@ -26,12 +26,12 @@
         <div class="arkdex">
             <nav class="list">
                 <ul>
-                    <li class="dino ativo" id="achatina"><img src="Dinopedia/Achatina/Achatina_icon.png" alt="Caracol-Gigante"><span>Achatina</span></li>
-                    <li class="dino" id="allosaurus"><img src="Dinopedia/Allosaurus/Allosaurus_icon.png" alt="Alossauro"><span>Allosaurus</span></li>
-                    <li class="dino" id="ankylosaurus"><img src="Dinopedia/Ankylosaurus/Ankylosaurus_icon.png" alt="Anquilossauro"><span>Ankylosaurus</span></li>
-                    <li class="dino" id="archaeopteryx"><img src="Dinopedia/Archaeopteryx/Archaeopteryx_icon.png" alt="Arqueopterix"><span>Archaeopteryx</span></li>
-                    <li class="dino" id="argentavis"><img src="Dinopedia/Argentavis/Argentavis_icon.png" alt="Argentavis"><span>Argentavis</span></li>
-                    <li class="dino" id="arthropleura"><img src="Dinopedia/Arthropleura/Arthropleura_icon.png" alt="Centopéia-Gigante"><span>Arthropleura</span></li>
+                    <li class="dino ativo" id="achatina"><span>Achatina</span><img src="Dinopedia/Achatina/Achatina_icon.png" alt="Caracol-Gigante"></li>
+                    <li class="dino" id="allosaurus"><span>Allosaurus</span><img src="Dinopedia/Allosaurus/Allosaurus_icon.png" alt="Alossauro"></li>
+                    <li class="dino" id="ankylosaurus"><span>Ankylosaurus</span><img src="Dinopedia/Ankylosaurus/Ankylosaurus_icon.png" alt="Anquilossauro"></li>
+                    <li class="dino" id="archaeopteryx"><span>Archaeopteryx</span><img src="Dinopedia/Archaeopteryx/Archaeopteryx_icon.png" alt="Arqueopterix"></li>
+                    <li class="dino" id="argentavis"><span>Argentavis</span><img src="Dinopedia/Argentavis/Argentavis_icon.png" alt="Argentavis"></li>
+                    <li class="dino" id="arthropleura"><span>Arthropleura</span><img src="Dinopedia/Arthropleura/Arthropleura_icon.png" alt="Centopéia-Gigante"></li>
                 </ul>
             </nav>
             <div class="cards">
@@ -47,24 +47,22 @@
                             <img src="Images/bg.png" alt="background">
                             <img src="Dinopedia/Achatina/Achatina_bg.png" alt="Achatina">
                         </div>
+                        <div class="submenu">
+                            <nav class="sub_list">
+                                <ul>
+                                    <li class="sub op" id="tabela">Estatísticas</li>
+                                    <li class="sub" id="dossier">Dossiê</li>
+                                    <li class="sub" id="comp">Comportamento</li>
+                                    <!-- <li class="sub">Drops</li> -->
+                                    <li class="sub" id="taming">Domando</li>
+                                    <li class="sub" id="encountering">Encontro</li>
+                                    <!-- <li class="sub">Utilitário</li> -->
+                                </ul>
+                            </nav>
+                        </div>
                     </div>
                     <div class="info">
-                        <div class="i dossier ">
-                            <h3>Espécies:</h3>
-                            <p>Achatina limusegnis</p>
-                            <h3>Tempo:</h3>
-                            <p>Holoceno</p>
-                            <h3>Dieta:</h3>
-                            <p>Herbívoro</p>
-                            <h3>Temperamento:</h3>
-                            <p>Passiva</p>
-                            <h3>Selvagem</h3>
-                            <p>Encontrado principalmente em pântanos e selvas, a Achatina limusegnis é um molusco terrestre muito lento e não ameaçador. Pode ser a criatura mais simples da Ilha para caçar e, embora forneça apenas uma pequena quantidade de carne e quitina, uma refeição fácil é sempre valiosa na Ilha. Ao contrário de quase todas as outras criaturas da Ilha, a Achatina não defeca normalmente. Em vez disso, secreta uma substância espessa e pegajosa. A Achatina deixa rastros desse lodo, mas os rastros são tão finos que se transformam em pó rapidamente.</p>
-                            <h3>Domesticado</h3>
-                            <p>Há um fato muito nojento, mas útil, sobre Achatina que faz com que as tribos procurem domá-los: suas secreções são quimicamente semelhantes à "Pasta de Cimentação" e ao "Polímero Orgânico" usado por muitas tribos para materiais de construção. A Achatina domesticada acumula naturalmente esse lodo ao longo do tempo, que pode ser coletado conforme a conveniência da tribo. Diz a lenda que a Achatina pode ser domado com um "bolo" especial feito de colheitas e recursos colhidos.</p>
-                            <span>~Helena</span>
-                        </div>
-                        <table class="i see">
+                        <table class="i see" id="achatina_info_tabela">
                             <tr>
                                 <td>Atributos</td>
                                 <td>Valores Base</td>
@@ -120,6 +118,48 @@
                                 <td>N/A</td>
                             </tr>
                         </table>
+                        <div class="i text dossier" id="achatina_info_dossier">
+                            <h3>Espécies:</h3>
+                            <p>Achatina limusegnis</p>
+                            <h3>Tempo:</h3>
+                            <p>Holoceno</p>
+                            <h3>Dieta:</h3>
+                            <p>Herbívoro</p>
+                            <h3>Temperamento:</h3>
+                            <p>Passiva</p>
+                            <h3>Selvagem</h3>
+                            <p>Encontrado principalmente em pântanos e selvas, a Achatina limusegnis é um molusco terrestre muito lento e não ameaçador. Pode ser a criatura mais simples da Ilha para caçar e, embora forneça apenas uma pequena quantidade de carne e quitina, uma refeição fácil é sempre valiosa na Ilha. Ao contrário de quase todas as outras criaturas da Ilha, a Achatina não defeca normalmente. Em vez disso, secreta uma substância espessa e pegajosa. A Achatina deixa rastros desse lodo, mas os rastros são tão finos que se transformam em pó rapidamente.</p>
+                            <h3>Domesticado</h3>
+                            <p>Há um fato muito nojento, mas útil, sobre Achatina que faz com que as tribos procurem domá-los: suas secreções são quimicamente semelhantes à "Pasta de Cimentação" e ao "Polímero Orgânico" usado por muitas tribos para materiais de construção. A Achatina domesticada acumula naturalmente esse lodo ao longo do tempo, que pode ser coletado conforme a conveniência da tribo. Diz a lenda que a Achatina pode ser domado com um "bolo" especial feito de colheitas e recursos colhidos.</p>
+                            <br>
+                            <span>~Helena</span>
+                        </div>
+                        <div class="i text comp" id="achatina_info_comp">
+                            <p>O Caracol-Gigante passa seus dias movendo-se lentamente em seu grande pé musculoso, deixando um rastro de lodo; e presta pouca atenção a tudo ao seu redor enquanto pasta em pequenas plantas e musgos. Achatina é uma das poucas criaturas verdadeiramente dóceis na Ilha e em outros mapas, pois fugirá, embora em um ritmo muito lento, até se machucar tanto que se esconderá em sua concha. Seu comportamento de se esconder em sua concha também é compartilhado pelo Doedicurus . Dentro desta concha, não pode ser ferido, a menos que um sobrevivente tente incansavelmente romper com uma arma ou domar. Usar flechas de pedra e atirar no fundo do projétil causará danos, embora você possa precisar de muitas flechas, dependendo da sua arma.</p>
+                            <p>Este enorme caracol pode ser comumente encontrado em biomas úmidos, como florestas de sequoias e coníferas, pântanos, a cidade Santuário em Extinção e a Zona Azul em Aberração . Cavernas de terra arrasada têm uma variante de alto nível da Achatina. A Achatina está visivelmente ausente da simulação de Gênesis: Parte 1 . Curiosamente e muito diferente dos caracóis da terra moderna, a Achatina das Arcas pode ocasionalmente ser encontrada submersa na água sem se afogar.</p>
+                            <p>Não é nem um pouco inteligente, embora pareça que seu prazer gastronômico de alimentos doces como bolos de vegetais doces possa ser explorado para reivindicá-lo como manso.</p>
+                        </div>
+                        <div class="i text taming" id="achatina_info_taming">
+                            <h3>Estratégia de KO</h3>
+                            <p>Como o dano é significativamente reduzido pelo projétil, é melhor acertá-lo nas partes macias e carnudas. Se sofrer dano suficiente, ele recuará para sua concha, tornando muito fácil matá-lo antes que o torpor dos tranquilizantes possa derrubá-lo. Esteja ciente de quão sangrenta a Achatina fica e use Dardos Tranquilizantes Chocantes ou Dardos Tranquilizantes normais para minimizar esse risco.</p>
+                            <h3>Comida preferida</h3>
+                            <p>Bolo Doce de Legumes</p>
+                            <h3>Comida depois de domar</h3>
+                            <p>Uma Achatina domesticado só comerá Bolo Doce de Legumes, por isso é aconselhável não domar uma Achatina a menos que tenha um suprimento constante de Seiva, Mel de Abelha Gigante, e plantações como Batatas para fazer bolos.</p>
+                            <p>Observe que todos as pilhas de bolos entrarão em um cooldown de 30 segundos após o consumo, durante o qual o jogo fará com que o caracol pense temporariamente que não há comida no inventário.</p>
+                        </div>
+                        <div class="i text encountering" id="achatina_info_encountering">
+                            <h3>Em geral</h3>
+                            <p>Se engajado e danificado, a Achatina recuará em sua concha e não fugirá nem lutará. O dano causado à Achatina será fortemente reduzido enquanto estiver dentro de sua concha. Achatinas, no entanto, soltam uma quantidade considerável de quitina quando colhidas, por isso são uma matança digna para quem procura coletá-la, às custas do tempo e esforço necessários para matar uma.</p>
+                            <h3>Estratégia</h3>
+                            <p>Embora a Achatina em si não seja perigosa, seus arredores geralmente estão cheios de predadores perigosos. Limpe a área de criaturas hostis antes de tentar domar Achatinas, ou pegue-as com uma montaria voadora. Um Argentavis pode carregar dois Achatina ao mesmo tempo usando suas garras e bico</p>
+                            <h3>Armamento</h3>
+                            <p>Qualquer arma ou criatura será capaz de matar suficientemente um Achatina em pouco tempo, embora se deva atirar no Achatina com dardos tranquilizantes para derrubá-lo para domar, pois há pouco benefício em exterminá-los.</p>
+                            <h3>Fraquezas</h3>
+                            <p>Achatinas selvagens às vezes recebem dano ao longo do tempo aleatoriamente como resultado de serem nocauteadas por Titanoboas, acordando e tendo sua comida reduzida a 0 no processo.</p>
+                            <p>Achatinas - <strong>selvagens e domesticadas</strong> - não revidam e não podem revidar quando atacado.</p>
+                        </div>
+
                     </div>
                 </div>
 
@@ -135,9 +175,22 @@
                             <img src="Images/bg.png" alt="background">
                             <img src="Dinopedia/Allosaurus/Allosaurus_bg.png" alt="Alossauro">
                         </div>
+                        <div class="submenu">
+                            <nav class="sub_list">
+                                <ul>
+                                    <li class="sub op" id="tabela">Estatísticas</li>
+                                    <li class="sub" id="dossier">Dossiê</li>
+                                    <li class="sub" id="comp">Comportamento</li>
+                                    <!-- <li class="sub">Drops</li> -->
+                                    <li class="sub" id="taming">Domando</li>
+                                    <li class="sub" id="encountering">Encontro</li>
+                                    <!-- <li class="sub">Utilitário</li> -->
+                                </ul>
+                            </nav>
+                        </div>
                     </div>
                     <div class="info">
-                        <table>
+                        <table class="i see" id="allosaurus_info_tabela">
                             <tr>
                                 <td>Atributos</td>
                                 <td>Valores Base</td>
@@ -192,7 +245,33 @@
                                 <td>+60</td>
                                 <td>N/A</td>
                             </tr>
-                        </table>                    
+                        </table>
+                        
+                        <div class="i text dossier" id="allosaurus_info_dossier">
+                            <h3>Espécies:</h3>
+                            <p>Allosaurus therotribus</p>
+                            <h3>Tempo:</h3>
+                            <p>Jurássico Superior</p>
+                            <h3>Dieta:</h3>
+                            <p>Carnívoro</p>
+                            <h3>Temperamento:</h3>
+                            <p>Agressivo</p>
+                            <h3>Selvagem</h3>
+                            <p>Menor, mas mais rápido que o Tiranossauro, maior, mas mais lento que o Carnotaurus, o Allosaurus therotribus é o terópode residente da ilha. Enquanto os terópodes mais agressivos são criaturas relativamente solitárias, o Allosaurus vive em grupos de 3. Um Allosaurus é o alfa, enquanto os outros são seus companheiros ou um macho beta. Assim como os humanos valorizam a formação de uma tribo, o Allosaurus evoluiu para caçar em bandos. Seus dentes em forma de serra deixam sua presa sangrando e mutilada, dificultando a fuga. Uma vez que um Allosaurus desacelera uma criatura com sua mordida cortante, o resto de sua matilha rapidamente se aproxima para matar.</p>
+                            <h3>Domesticado</h3>
+                            <p>Nem todo mundo acha que um Allosaurus domesticado é o ideal. Aqueles que apreciam a velocidade geralmente domam o Carnotaurus, enquanto aqueles que valorizam o poder de parada bruto domam o Tyrannosaurus. No entanto, os cavaleiros do Allosaurus tendem a respeitar a utilidade de seu status de pacote Alpha, que, juntamente com seus ataques indutores de sangramento e mobilidade relativa, pode efetivamente mudar a maré de uma batalha de armas combinadas.</p>
+                            <br>
+                            <span>~Helena</span>
+                        </div>
+                        <div class="i text comp" id="allosaurus_info_comp">
+                            
+                        </div>
+                        <div class="i text taming" id="allosaurus_info_taming">
+                            
+                        </div>
+                        <div class="i text Encountering" id="allosaurus_info_encountering">
+                            
+                        </div>                  
                     </div>
                 </div>
 

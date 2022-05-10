@@ -1,4 +1,5 @@
-@media(max-width: 800px){
+
+@media(max-width: 850px){
     body{
         font-size: 12px;
     }
@@ -23,10 +24,27 @@
     }
     .list .dino{
         width: 140px;
-        border-top-left-radius: 0;
-        border-top-right-radius: 30px;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 0;
     }
     .list .dino span{
         padding-right: 5px;
+    }
+    .list img{
+        width: 30%;
+    }
+}
+@media(max-width: 650px){
+    .arkdex{
+        max-width: 500px;
+    }
+    .cards{
+        width: 500px;
+    }
+    .card{
+        width: 500px;
+    }
+    .card_img img{
+        width: 450px;
     }
 }

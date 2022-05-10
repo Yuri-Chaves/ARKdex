@@ -10,8 +10,8 @@
     color: #FFFFFF;
     padding: 0 5px;
     cursor: pointer;
-    border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
     min-height: 70px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     transition: 0.15s ease-in-out;
@@ -27,5 +27,32 @@
     padding-right: 20px;
 }
 .list .dino.ativo {
+    background-color: #FA6668;
+}
+
+/* Sub-Menu */
+.submenu{
+    min-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+.sub_list{
+    text-align: center;
+}
+.sub_list .sub{
+    max-width: 150px;
+    display: inline;
+    color: #FFFFFF;
+    /* background-color: #0091EA; */
+    background-color: #6B727A;
+    padding: 5px 5px;
+    border-radius: 15px;
+    cursor: pointer;
+    min-height: 30px;
+    transition: 0.15s ease-in-out;
+}
+.sub_list .sub.op{   
     background-color: #FA6668;
 }
