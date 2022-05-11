@@ -9,6 +9,15 @@ listSelect.forEach(dino => {
 
         const cardToOpen = document.getElementById(idDinoSelected + '_card')
         cardToOpen.classList.add('open')
+        const removeLastInfo = document.querySelector('.see')
+        removeLastInfo.classList.remove('see') 
+        const infoDefault = document.getElementById(idDinoSelected + '_info_tabela')
+        infoDefault.classList.add('see')
+        const subNavOpen = document.querySelector('.op')
+        subNavOpen.classList.remove('op')
+        const subNavDefault = document.getElementById('tabela')
+        subNavDefault.classList.add('op')
+
 
         const navOpen = document.querySelector('.ativo')
         navOpen.classList.remove('ativo')

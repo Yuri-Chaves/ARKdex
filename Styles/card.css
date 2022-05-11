@@ -34,22 +34,24 @@
     max-height: 100%;
     position: absolute;
 }
-.card .info {
-    width: 100%;
+.cards .info {
+    width: 600px;
     background-color: #FFFFFF;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
-.card .info img {
+.cards .info img {
     height: 30px;
 }
-.card .info table{
+.cards .info table{
     padding: 10px;
 }
-.card .info tr {
+.cards .info tr {
     background-color: antiquewhite;
 }
 .card.open {
